@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Gilroy;
+    background-color: rgb(228, 228, 228);
+}
+
+h1{
+    font-weight: 1000;
+}
+#self{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(46, 46, 73);
+    color: white;
+}
+
+#aboutme{
+    height: 200px;
+    margin: 20px 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+#aboutme h1{
+    font-weight: 600;
+}
+
+#education{
+    height: 260px;
+    margin: 20px 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(167, 226, 255);
+}
+
+#education h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 10px;
+    width: 80%;
+    height: 17%;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+#skills{
+    height: 350px;
+    margin: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(228, 211, 135);
+}
+
+#skills h3{
+    display: flex;
+    justify-content: center;
+    height: 13%;
+    width: 55%;
+    padding: 10px 10px;
+    margin: 8px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+#projects{
+    height: 350px;
+    margin: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(232, 195, 232);
+}
+
+#projects h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 13%;
+    width: 55%;
+    padding: 10px 20px;
+    background-color: white;
+    margin: 5px 20px;
+}
+
+#contact{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(197, 249, 197);
+    margin: 20px 30px;
+}
+
+#contact h3{
+       display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 13%;
+    width: 55%;
+    padding: 10px 20px;
+    background-color: white;
+    margin: 5px 20px;
+}
